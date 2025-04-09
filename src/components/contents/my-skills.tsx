@@ -1,0 +1,47 @@
+import React from 'react'
+import AnimationContainer from "../utils/animation-container";
+import { SKILLS } from "@/constants/skills";
+import ShowSkills from "../utils/show-skills";
+
+const MySkills = () => {
+    return (
+        <div className="w-full relative pb-20 py-10 z-40">
+            <AnimationContainer
+                animation="slide-up"
+                delay={0.1}
+                className="flex items-center justify-center overflow-hidden w-full mx-auto"
+            >
+                <div className="w-full">
+                    <h2 className="text-2xl lg:text-3xl font-medium text-left w-full">
+                        Skills & Tools
+                    </h2>
+
+                    <p className="text-justify lg:leading-7 text-foreground/80 lg:text-start mt-10">
+                    As a software engineer specializing in both web and mobile development, I have built and optimized scalable applications using modern technologies. With hands-on experience in frontend, mobile app development, web3,and  database, I focus on creating seamless user experiences while ensuring performance and maintainability.                    </p>
+
+                    <p className="text-justify lg:leading-7 text-foreground/80 lg:text-start mt-4">
+                    I’m always eager to learn and adapt to new tools, frameworks, and best practices, continuously improving my expertise in the ever-evolving tech landscape.                    </p>
+                </div>
+            </AnimationContainer>
+
+            <div className="flex flex-col pt-10 w-full">
+                <div className="flex flex-col flex-wrap items-start gap-5">
+                    {SKILLS.map((skill, index) => (
+                        <AnimationContainer key={skill.title} delay={0.1 * index + 0.1} className="flex flex-col mb-4">
+                            <div className="space-y-3">
+                                <h3 className="text-lg font-bold">
+                                    {skill.title}
+                                </h3>
+                                <div className="flex flex-wrap items-center gap-4">
+                                    <ShowSkills stacks={skill.stack} />
+                                </div>
+                            </div>
+                        </AnimationContainer>
+                    ))}
+                </div>
+            </div>
+        </div>
+    )
+};
+
+export default MySkills
