@@ -4,26 +4,26 @@ import { Project, Projects } from "@/types";
 export const dummyReviews = [
   {
     id: "1",
-    name: "John Smith",
-    company: "United States",
+    name: "Seun Somefun",
+    company: "Nigeria",
     review:
-      "Daniel delivered an exceptional website that perfectly captured our brand identity. His attention to detail and creative approach exceeded our expectations.",
+      "I have had the opportunity to see Daniel’s work firsthand, and I’m consistently impressed by their skills as a frontend engineer. Their ability to build intuitive, responsive, and high-performance web and mobile applications stands out. Daniel has a strong command of modern frontend technologies like React, React Native, TypeScript, and Next.js. his work reflects this.",
     image: "/images/testimonials/john.jpg",
   },
   {
     id: "2",
-    name: "Sarah Johnson",
-    company: "Canada",
+    name: "Daniel Clairmont",
+    company: "United Kingdom",
     review:
       "Working with Daniel was a pleasure! He understood our requirements quickly and delivered a stunning website that has significantly improved our online presence.",
     image: "/images/testimonials/sarah.jpg",
   },
   {
     id: "3",
-    name: "Michael Brown",
-    company: "United Kingdom",
+    name: "John Afolabi",
+    company: "Nigeria",
     review:
-      "Daniel's expertise in web development is impressive. He created a user-friendly interface that has received numerous compliments from our customers.",
+      "He has a strong grasp of React/React Native and its ecosystem, with a keen eye for design. An excellent colleague and a great person overall.",
     image: "/images/testimonials/michael.jpg",
   },
   {
@@ -40,48 +40,38 @@ export const dummyReviews = [
 export const dummyProjects: Project[] = [
   {
     id: "1",
-    title: "E-Commerce Platform",
+    title: "Lifestyle@Savetobuy",
     description:
-      "Farmvesto connects investors with high-potential farming ventures, ensuring profitable, secure and sustainable agricultural investments.",
+      "All your Favorite Brands in One Place Achieve your dream lifestyle without debt",
     image: [{ url: "/images/Farmvesto.jpeg" }],
-    github: "https://github.com/dameldesign/ecommerce-platform",
-    view: "https://ecommerce-platform-demo.vercel.app",
+    github: "",
+    view: "https://lifestyle.savetobuy.io/",
   },
   {
     id: "2",
-    title: "Portfolio Website",
+    title: "Farmvesto",
     description:
-      "A responsive portfolio website with smooth animations and dark mode support. Features project showcases and contact form integration.",
+      "Farmvesto connects investors with high-potential farming ventures, ensuring profitable, secure and sustainable agricultural investments.",
     image: [{ url: "/images/Farmvesto.jpeg" }],
-    github: "https://github.com/dameldesign/portfolio-website",
-    view: "https://portfolio-website-demo.vercel.app",
-  },
-  {
-    id: "3",
-    title: "Task Management App",
-    description:
-      "A collaborative task management application with real-time updates, task assignment, and progress tracking features.",
-    image: [{ url: "/images/Farmvesto.jpeg" }],
-    github: "https://github.com/dameldesign/task-management-app",
-    view: "https://task-management-app-demo.vercel.app",
+    github: "",
+    view: "https://farmvesto.com",
   },
   {
     id: "4",
-    title: "Weather Dashboard",
-    description:
-      "An interactive weather dashboard that provides real-time weather information, forecasts, and location-based services.",
+    title: "ConnectNigeria",
+    description: "Discover Real Estate and lots more in Nigeria",
     image: [{ url: "/images/Farmvesto.jpeg" }],
-    github: "https://github.com/dameldesign/weather-dashboard",
-    view: "https://weather-dashboard-demo.vercel.app",
+    github: "",
+    view: "https://connectnigeria.com",
   },
   {
     id: "5",
-    title: "Blog Platform",
+    title: "SavetoBuy: Save, Donate, Pay",
     description:
-      "A feature-rich blog platform with content management system, user authentication, and comment functionality.",
+      "SavetoBuy is an All in One Money App for young Nigerians to build wealth and own the things they desire.We enable you to Save, Pay small small to buy from your favorite brands, and Invest your money wisely. Dream it! Save it! Own it!",
     image: [{ url: "/images/Farmvesto.jpeg" }],
     github: "https://github.com/dameldesign/blog-platform",
-    view: "https://blog-platform-demo.vercel.app",
+    view: "https://play.google.com/store/apps/details?id=com.savetobuy.io&pcampaignid=web_share",
   },
   {
     id: "6",
