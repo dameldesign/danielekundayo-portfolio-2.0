@@ -41,12 +41,12 @@ const Project = ({ project }: Props) => {
                     {truncateDescription(project.description)}
                 </p>
                 <div className="flex gap-x-4 mt-4">
-                    <Link href={githubUrl} target="_blank">
+                    {/* <Link href={githubUrl} target="_blank">
                         <Button variant="outline" size="sm">
                             <Icons.github className="size-4 mr-2" />
                             GitHub
                         </Button>
-                    </Link>
+                    </Link> */}
                     <Link href={viewUrl} target="_blank">
                         <Button variant="outline" size="sm">
                             <ExternalLinkIcon className="size-4 mr-2" />

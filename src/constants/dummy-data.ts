@@ -44,7 +44,6 @@ export const dummyProjects: Project[] = [
     description:
       "All your Favorite Brands in One Place Achieve your dream lifestyle without debt",
     image: [{ url: "/images/Farmvesto.jpeg" }],
-    github: "",
     view: "https://lifestyle.savetobuy.io/",
   },
   {
@@ -53,7 +52,6 @@ export const dummyProjects: Project[] = [
     description:
       "Farmvesto connects investors with high-potential farming ventures, ensuring profitable, secure and sustainable agricultural investments.",
     image: [{ url: "/images/Farmvesto.jpeg" }],
-    github: "",
     view: "https://farmvesto.com",
   },
   {
@@ -61,7 +59,6 @@ export const dummyProjects: Project[] = [
     title: "ConnectNigeria",
     description: "Discover Real Estate and lots more in Nigeria",
     image: [{ url: "/images/Farmvesto.jpeg" }],
-    github: "",
     view: "https://connectnigeria.com",
   },
   {
@@ -70,7 +67,6 @@ export const dummyProjects: Project[] = [
     description:
       "SavetoBuy is an All in One Money App for young Nigerians to build wealth and own the things they desire.We enable you to Save, Pay small small to buy from your favorite brands, and Invest your money wisely. Dream it! Save it! Own it!",
     image: [{ url: "/images/Farmvesto.jpeg" }],
-    github: "https://github.com/dameldesign/blog-platform",
     view: "https://play.google.com/store/apps/details?id=com.savetobuy.io&pcampaignid=web_share",
   },
   {
@@ -79,7 +75,7 @@ export const dummyProjects: Project[] = [
     description:
       "A comprehensive fitness tracking application that allows users to monitor workouts, set goals, and track progress over time.",
     image: [{ url: "/images/Farmvesto.jpeg" }],
-    github: "https://github.com/dameldesign/fitness-tracker",
+    github: "",
     view: "https://fitness-tracker-demo.vercel.app",
   },
 ];

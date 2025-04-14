@@ -1,6 +1,5 @@
 "use client";
 
-import { getTags } from '@/graphql';
 import { CategoryProps } from '@/types';
 import { motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
@@ -13,19 +12,7 @@ const Tags = () => {
     const [tags, setTags] = useState<CategoryProps[]>([]);
     const [isLoading, setIsLoading] = useState<boolean>(true);
 
-    useEffect(() => {
-        try {
-            const fetchTags = async () => {
-                const data = await getTags();
-                setTags(data);
-                setIsLoading(false);
-            };
-            fetchTags();
-        } catch (error) {
-            console.log(error);
-            setIsLoading(false);
-        }
-    }, []);
+
 
     const data = tags?.map((item: any) => item.node);
 
