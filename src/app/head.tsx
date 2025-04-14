@@ -17,6 +17,7 @@ const Head = () => {
     return (
         <>
             <title>{meta.title}</title>
+            <title>Daniel Jesutobi Ekundayo 🚀 || Software Portfolio</title>
             <meta name='viewport' content='width=device-width, initial-scale=1, viewport-fit=cover' />
             <meta name='robots' content='follow, index' />
             <meta content={meta.description} name='description' />
@@ -27,6 +28,7 @@ const Head = () => {
             <meta property='og:type' content={meta.type} />
             <meta property='og:site_name' content='Daniel Ekundayo' />
             <meta property='og:description' content={meta.description} />
+            <meta property='og:description' content="I'm a software engineer and a web developer. I love to build things for the web and mobile devices. I love to learn new things and I'm always looking for new challenges." />
             <meta property='og:title' content={meta.title} />
 
             <meta name='twitter:description' content={meta.description} />
