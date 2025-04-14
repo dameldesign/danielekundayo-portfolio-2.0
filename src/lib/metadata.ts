@@ -170,8 +170,8 @@ interface MetadataProps {
 
 export const generateMetadata = ({
   title = "Daniel Ekundayo",
-  description = "I'm a software engineer and entrepreneur.",
-  image = "/images/og-image.png",
+  description = "I'm a software engineer and designer.",
+  image = "/images/brand-image.png",
   icons = [
     {
       rel: "icon",
@@ -181,7 +181,7 @@ export const generateMetadata = ({
   ],
   noIndex = false,
   keywords = [],
-  author = "Daniel Ekundayo",
+  author = "Daniel Jesutobi Ekundayo",
   twitterHandle = "dameldesign",
   type = "website",
   locale = "en_US",
@@ -269,8 +269,8 @@ export const generateMetadata = ({
       'og:image:width': '1200',
       'og:image:height': '630',
       'github': 'https://github.com/dameldesign',
-      'linkedin': 'https://linkedin.com/in/dameldesign',
-      'discord': 'dameldesign',
+      'linkedin': 'https://linkedin.com/in/daniel-jesutobi-ekundayo-2b058318b',
+      'discord': 'damel_design',
     },
     // Add canonical URL
     ...(canonical && {
